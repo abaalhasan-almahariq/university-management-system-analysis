@@ -39,52 +39,33 @@ The project uses **Extreme Programming (XP)** as its proposed development method
 - [Requirements](docs/REQUIREMENTS.md)
 - [Use Cases](docs/USE_CASES.md)
 - [Class Documentation](docs/CLASS_DOCUMENTATION.md)
+- [GitHub-Rendered UML & Activity Diagrams](docs/DIAGRAMS.md)
+- [Prototype Overview](docs/PROTOTYPE.md)
 
-## UML & Activity Diagrams
+## UML & Activity Modeling
 
-### Use Case Diagram
+The portfolio version includes GitHub-rendered Mermaid recreations of the project's:
 
-![Use case diagram](diagrams/use-case-diagram.png)
+- Use-case overview
+- UML class diagram
+- UC-1 Register Course activity diagram
+- UC-2 Pay Fees activity diagram
+- UC-3 View Student Marks activity diagram
 
-### Class Diagram
-
-![Class diagram](diagrams/class-diagram.png)
-
-### UC-1 — Register Course
-
-![Register course activity diagram](diagrams/activity-uc1-register-course.png)
-
-### UC-2 — Pay Fees
-
-![Pay fees activity diagram](diagrams/activity-uc2-pay-fees.png)
-
-### UC-3 — View Student Marks
-
-![View student marks activity diagram](diagrams/activity-uc3-view-student-marks.png)
+➡️ **[View the diagrams directly on GitHub](docs/DIAGRAMS.md)**
 
 ## Prototype
 
-The project includes a visual prototype for both student and professor workflows.
+The original project includes a visual prototype covering both student and professor workflows, including:
 
-### Student Dashboard
+- Student dashboard
+- My Courses
+- Available Courses / course registration
+- Attendance
+- Absence excuse submission
+- Professor dashboard
 
-![Student dashboard](prototype/student-dashboard.png)
-
-### Course Management
-
-![Student courses](prototype/student-courses.png)
-
-![Available courses](prototype/available-courses.png)
-
-### Attendance & Excuse Submission
-
-![Attendance](prototype/student-attendance.png)
-
-![Submit excuse](prototype/submit-excuse.png)
-
-### Professor Dashboard
-
-![Professor dashboard](prototype/professor-dashboard.png)
+➡️ **[Read the prototype overview](docs/PROTOTYPE.md)**
 
 A prototype walkthrough video was also included with the original project material:
 
@@ -95,31 +76,21 @@ A prototype walkthrough video was also included with the original project materi
 ```text
 university-management-system-analysis/
 ├── README.md
-├── docs/
-│   ├── PROJECT_OVERVIEW.md
-│   ├── STAKEHOLDERS_AND_USER_STORIES.md
-│   ├── REQUIREMENTS.md
-│   ├── USE_CASES.md
-│   └── CLASS_DOCUMENTATION.md
-├── diagrams/
-│   ├── use-case-diagram.png
-│   ├── class-diagram.png
-│   ├── activity-uc1-register-course.png
-│   ├── activity-uc2-pay-fees.png
-│   ├── activity-uc3-view-student-marks.png
-│   └── editable/
-└── prototype/
-    ├── student-dashboard.png
-    ├── student-courses.png
-    ├── available-courses.png
-    ├── student-attendance.png
-    ├── submit-excuse.png
-    └── professor-dashboard.png
+└── docs/
+    ├── PROJECT_OVERVIEW.md
+    ├── STAKEHOLDERS_AND_USER_STORIES.md
+    ├── REQUIREMENTS.md
+    ├── USE_CASES.md
+    ├── CLASS_DOCUMENTATION.md
+    ├── DIAGRAMS.md
+    └── PROTOTYPE.md
 ```
 
 ## Important Note
 
 This repository presents the **analysis, modeling, and prototype work** produced for the university project. It should not be interpreted as a completed production implementation of the proposed system.
+
+The original project package also contains exported Draw.io diagrams, editable Draw.io sources, prototype screenshots, and the full university report. For the public portfolio, the material has been reorganized into readable Markdown and Mermaid diagrams instead of uploading the raw project folder unchanged.
 
 ## Author Contribution
 
